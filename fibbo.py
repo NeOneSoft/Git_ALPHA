@@ -35,3 +35,14 @@ my_car = Sport('Mini', 'Jhon Cooper', '2021')
 print(my_car.brand, my_car.model, my_car.year)
 my_car.turn_On()
 my_car.turn_Off()
+
+
+def fizz_buzz(n):
+    if n % 5 == 0 and n % 3 == 0:
+        print("FizzBuzz")
+    elif n % 5 == 0:
+        print("Fizz")
+    elif n % 3 == 0:
+        print("Buzz")
+
+fizz_buzz(25)
