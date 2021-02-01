@@ -17,4 +17,21 @@ def users():
     print(users)
 
 users()
-   
+
+class Car:
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
+
+class Sport(Car):
+    def turn_On(self):
+        print("This car is On")
+
+    def turn_Off(self):
+        print("This car is Off")
+
+my_car = Sport('Mini', 'Jhon Cooper', '2021')
+print(my_car.brand, my_car.model, my_car.year)
+my_car.turn_On()
+my_car.turn_Off()
