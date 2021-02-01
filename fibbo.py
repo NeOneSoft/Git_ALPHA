@@ -46,3 +46,9 @@ def fizz_buzz(n):
         print("Buzz")
 
 fizz_buzz(25)
+
+def names(names_list):
+    for name in names_list:
+        print(name)
+        
+names(names_list = ['Pedro', 'Hugo', 'Paco', 'Luis'])
