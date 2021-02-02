@@ -16,6 +16,7 @@ def users():
     users['profession'] = "Software Enginner" 
     print(users)
 
+<<<<<<< HEAD
 users()
 
 class Car:
@@ -52,3 +53,14 @@ def names(names_list):
         print(name)
         
 names(names_list = ['Pedro', 'Hugo', 'Paco', 'Luis'])
+=======
+class Person:
+    def __init__(self, first_name, last_name, gender):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.gender = gender
+
+class Man(Person):
+    def working(self):
+        print("I'm Working")
+>>>>>>> 147efb7 (add Man Class inherit Person)
